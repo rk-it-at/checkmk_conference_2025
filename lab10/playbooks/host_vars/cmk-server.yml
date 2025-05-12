@@ -24,3 +24,5 @@ checkmk_users:
     auth_type: password
     contactgroups:
       - "all"
+    roles:
+      - "user"

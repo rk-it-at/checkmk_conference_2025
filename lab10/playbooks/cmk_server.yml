@@ -37,6 +37,7 @@
         fullname: "{{ item['fullname'] | default(omit) }}"
         auth_type: "{{ item['auth_type'] }}"
         contactgroups: "{{ item['contactgroups'] | default(omit) }}"
+        roles: "{{ item['roles'] | default(omit) }}"
         state: present
         server_url: "https://localhost"
         site: "master"
