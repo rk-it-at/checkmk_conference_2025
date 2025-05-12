@@ -50,11 +50,3 @@ checkmk_passwords:
   - name: authenticationtest_com
     title: authenticationtest.com
     password: pass
-checkmk_tag_groups:
-  - name: lifecycle_environment
-    title: Lifecycle Environment
-    tags:
-      - id: production
-        title: Production
-      - id: testing
-        title: Testing
