@@ -1,7 +1,7 @@
 ---
 
 - name: Install Checkmk server
-  hosts: cmk_server
+  hosts: cmk-server
   connection: local
   become: true
 
