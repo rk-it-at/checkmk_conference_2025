@@ -40,7 +40,8 @@ checkmk_rules:
         description: "authenticationtest.com"
       location:
         folder: "/"
-        value_raw: "{'endpoints': [{'service_name': {'prefix': 'auto', 'name': 'HTTPAuth'}, 'url': 'https://authenticationtest.com/HTTPAuth/'}], 'standard_settings': {'connection': {'method': ('get', None), 'auth': ('user_auth', {'user': 'user', 'password': ('cmk_postprocessed', 'stored_password', ('authenticationtest_com', ''))})}}}"
+      value_raw: "{'endpoints': [{'service_name': {'prefix': 'auto', 'name': 'HTTPAuth'}, 'url': 'https://authenticationtest.com/HTTPAuth/'}], 'standard_settings': {'connection': {'method': ('get', None), 'auth': ('user_auth', {'user': 'user', 'password': ('cmk_postprocessed', 'stored_password', ('authenticationtest_com', ''))})}}}"
+      conditions:
         hostname:
           match_on:
             - cmk-agent
