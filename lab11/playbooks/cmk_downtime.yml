@@ -8,6 +8,7 @@
   tasks:
     - name: Create downtime
       checkmk.general.downtime:
+        host_name: "{{ inventory_hostname }}"
         end_after:
           minutes: 15
         state: present
