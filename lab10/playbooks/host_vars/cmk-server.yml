@@ -21,5 +21,6 @@ checkmk_users:
     password: "AnsibleW0rkshop2025!"
     email: "cmkuser@localhost"
     fullname: "Checkmk user"
+    auth_type: password
     contactgroups:
       - "all"
