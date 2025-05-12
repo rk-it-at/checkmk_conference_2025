@@ -16,8 +16,19 @@
 * [LAB 14](lab14/playbooks): Checkmk lookups
 * [LAB 15](lab15/playbooks): Checkmk as Ansible inventory
 
-Importannt links:
+Important links:
 
 * [Checkmk collection on Github](https://github.com/Checkmk/ansible-collection-checkmk.general)
 * [Checkmk collection on Ansible Galaxy](https://galaxy.ansible.com/ui/repo/published/checkmk/general/)
+* [Checkmk documentation](https://docs.checkmk.com/latest/en/)
+* [Checkmk API documentation](https://docs.checkmk.com/latest/en/rest_api.html)
+* [Checkmk download](https://checkmk.com/download)
+* [Ansible documentation](https://docs.ansible.com/)
+* [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible)
+* [Ansible Automation Platform documentation](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5)
 
+Contact details:
+
+* René Koch
+* [rkoch@rk-it.at](mailto:rkoch@rk-it.at)
+* [Linkedin Profile](https://www.linkedin.com/in/rk-it-at/)
