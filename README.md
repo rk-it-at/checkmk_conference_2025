@@ -18,6 +18,6 @@
 
 Importannt links:
 
-* (Checkmk collection on Github)[https://github.com/Checkmk/ansible-collection-checkmk.general]
-* (Checkmk collection on Ansible Galaxy)[https://galaxy.ansible.com/ui/repo/published/checkmk/general/]
+* [Checkmk collection on Github](https://github.com/Checkmk/ansible-collection-checkmk.general)
+* [Checkmk collection on Ansible Galaxy](https://galaxy.ansible.com/ui/repo/published/checkmk/general/)
 
