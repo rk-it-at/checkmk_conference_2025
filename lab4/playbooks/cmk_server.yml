@@ -1,0 +1,9 @@
+---
+
+- name: Install Checkmk server
+  hosts: cmk_server
+  connection: local
+  become: true
+
+  roles:
+    - checkmk.general.server
