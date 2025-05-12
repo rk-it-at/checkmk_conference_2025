@@ -21,10 +21,10 @@
         path: "{{ item['path'] }}"
         attributes: "{{ item['attributes'] | default(omit) }}"
         state: present
-        server_url: "https://{{ checkmk_agent_server }}"
-        site: "{{ checkmk_agent_site }}"
-        automation_user: "{{ checkmk_agent_user }}"
-        automation_secret: "{{ checkmk_agent_pass }}"
+        server_url: "https://localhost"
+        site: "master"
+        automation_user: "cmkadmin"
+        automation_secret: "{{ checkmk_admin_pw }}"
         validate_certs: false
       notify: "Activate Checkmk changes"
       loop: "{{ checkmk_folders }}"
@@ -37,10 +37,10 @@
 
     - name: Activate Checkmk changes
       checkmk.general.activation:
-        server_url: "https://{{ checkmk_agent_server }}"
-        site: "{{ checkmk_agent_site }}"
-        automation_user: "{{ checkmk_agent_user }}"
-        automation_secret: "{{ checkmk_agent_pass }}"
+        server_url: "https://localhost"
+        site: "master"
+        automation_user: "cmkadmin"
+        automation_secret: "{{ checkmk_admin_pw }}"
         validate_certs: false
         force_foreign_changes: true
       run_once: true
