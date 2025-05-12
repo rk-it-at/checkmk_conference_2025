@@ -72,7 +72,7 @@
         automation_secret: "{{ checkmk_admin_pw }}"
         validate_certs: false
       notify: "Activate Checkmk changes"
-      loop: "{{ checkmk_rules }}"
+      loop: "{{ checkmk_passwords }}"
         
   handlers:
     - name: Restart httpd
